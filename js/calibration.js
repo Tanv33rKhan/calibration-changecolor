@@ -114,7 +114,7 @@ $(document).ready(function() {
                                         window.location.hostname.split(":")[0] === "127.0.0.1" ?
                                         dev :
                                         "";
-                                    window.location.href = `${baseURL}/colorchanger.html`;
+                                    window.location.href = `${baseURL}/calibration-changecolor/colorchanger.html`;
                                     // ClearCanvas();
                                 } else {
                                     //use restart function to restart the calibration
